@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sanity_Simple_Book_APIs_test(failed)">
+    <classes>
+      <class name="sanity_Simple_Book_APIs.Patch_Update_Order">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="get_Single_Order"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sanity_Simple_Book_APIs.Patch_Update_Order -->
+    </classes>
+  </test> <!-- sanity_Simple_Book_APIs_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> -->
+<suite name="Suite">
+	<test name="sanity_Simple_Book_APIs_test">
+		<classes>
+			<class name="sanity_Simple_Book_APIs.GetStatusTest" />
+			<class name="sanity_Simple_Book_APIs.GetListOfBooksTest" />
+			<class name="sanity_Simple_Book_APIs.Post_Authentication" />
+			<class name="sanity_Simple_Book_APIs.Post_Submit_An_order" />
+			<class name="sanity_Simple_Book_APIs.Get_All_Orders" />
+			<class name="sanity_Simple_Book_APIs.Patch_Update_Order" />
+			<class name="sanity_Simple_Book_APIs.Delete_A_Single_Order" />
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
